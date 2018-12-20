@@ -76,12 +76,15 @@ class _MyHomePageState extends State<MyHomePage> {
               ]
             ),  
             new Expanded(
-              child: FractionallySizedBox(
-                widthFactor: 1.0,
-                child: Container(
-                  color: Colors.yellow,
-                  child: Text(
-                    'ccccc'
+              child: Padding(
+                padding: EdgeInsets.only(top: 8.0),
+                child: FractionallySizedBox(
+                  widthFactor: 1.0,
+                  child: Container(
+                    color: Colors.yellow,
+                    child: Text(
+                      'ccccc'
+                    ),
                   ),
                 ),
               ),
